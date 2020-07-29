@@ -1,7 +1,3 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
-
-// prints "hi" in the browser's dev tools console
 console.log("hi");
 
 var slideIndex = 0;
@@ -37,6 +33,3 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
-
-
-// external js: flickity.pkgd.js
