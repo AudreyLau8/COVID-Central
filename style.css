@@ -1,0 +1,338 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: grey;
+}
+
+.title-img {
+  object-fit: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: grey;
+}
+
+.center {
+  text-align: center;
+}
+
+.container-fluid {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.youtube {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.title-img {
+  object-fit: cover;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.mySlides {
+  width: 70%;
+  height: 400px;
+  margin: auto;
+  object-fit: cover;
+  padding: 10px;
+}
+
+/* test for news */
+
+.icons {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* Icons */
+
+.icon {
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-family: fontawesome;
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  padding-top: 12px;
+  margin: 0 2px;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon:hover {
+  background: white;
+}
+
+/* pop-up text */
+
+.icon span {
+  color: #666;
+  position: absolute;
+  font-family: sans-serif;
+  bottom: 0;
+  left: -25px;
+  right: -25px;
+  padding: 5px 7px;
+  z-index: -1;
+  font-size: 14px;
+  border-radius: 2px;
+  background: #fff;
+  visibility: hidden;
+  opacity: 0;
+  -o-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* pop-up text arrow */
+
+.icon span:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  position: absolute;
+  bottom: -5px;
+  left: 40px;
+  position: left;
+}
+
+/* text pops up when icon is in hover state */
+
+.icon:hover span {
+  bottom: 50px;
+  position: center;
+  visibility: visible;
+  opacity: 1;
+}
+
+/* font awesome icons */
+
+.icon:nth-of-type(1):before {
+  content: "\f09a";
+}
+.icon:nth-of-type(2):before {
+  content: "\f099";
+}
+.icon:nth-of-type(3):before {
+  content: "\f08c";
+}
+.icon:nth-of-type(4):before {
+  content: "\f16d";
+}
+.icon:nth-of-type(5):before {
+  content: "\f16a";
+}
+.icon:nth-of-type(6):before {
+  content: "\f2ab";
+}
+
+.jasgrid {
+  padding: 0;
+}
+.box-item {
+  float: left;
+  opacity: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.box-item img {
+  width: 100%;
+}
+.box-item a,
+span {
+  color: #FFF;
+}
+
+.box-item .box-post span.meta {
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #fff;
+  margin-top: 15px;
+  display: block;
+}
+
+.box-item .box-post span.meta span {
+  margin-right: 15px;
+}
+
+.box-item .box-post {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.box-item .box-post h1..post-title {
+  font-size: 10pt;
+}
+
+/*.symp-cards {
+  display: flex;
+  justify-content: space-evenly;
+  height: 200px;
+  text-align: center;
+}*/
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.sticky {  
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+
+.textbox {
+  width: 700px;
+  padding: 50px;
+  
+  margin: 0;
+}
+
+/* trying sth */
+
+.spread-card {
+  list-style-type: disc;
+  list-style-position: inside;
+  border: none;
+}
+
+.spread-img {
+  object-fit: cover;
+}
+
+
+
+
+/* Style the header */
+.header {
+  padding: 10px 16px;
+  background: white;
+  color: #f1f1f1;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+    
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+
+
+.centerdiv {  
+  display: flex;
+  justify-content: center;
+}
+
+
+.stickytest {
+  width: 70%;
+  height: 400px;
+  margin: auto;
+  object-fit: cover;
+  padding: 10px;
+}
+

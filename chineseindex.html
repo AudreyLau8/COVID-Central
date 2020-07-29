@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+   
+    <title>新冠病毒网站 (主页)</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://cdn.glitch.com/0d98bcc4-796f-471b-8bc6-c77ce9ac9fc6%2Funnamed.png?v=1594841505757"/>
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <!-- title with image -->
+    <div class="container-fluid">
+      <img class="title-img w-100"
+        src="https://cdn.glitch.com/0d98bcc4-796f-471b-8bc6-c77ce9ac9fc6%2Fcovid.jpg?v=1594674692729"
+        alt="Snow"
+        height="150px"
+      />
+
+      <div class="centered"><h1>新冠病毒网站</h1></div>
+    </div>
+
+    <!-- end of title with image -->
+
+   <!-- nav bar -->
+    
+    <div class="centerdiv header " id="myHeader" >
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="chineseindex.html">主页 <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="chinese-news.html">新闻</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           安全措施
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="chinese-symptoms.html">症状</a>
+          <a class="dropdown-item" href="chinese-protect.html">保护自己</a>
+        </div>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="chinese-donate.html">捐赠</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="chinese-cases.html">冠状病毒病例</a>
+      </li>
+            
+    </ul>
+    
+  </div>
+</nav>
+</div>
+    
+
+    <!-- End of nav bar -->
+    
+    <a href="index.html">用英语读页面</a>
+
+    
+
+  
+     <!-- auto slideshow, not sure what we want to do with it? 
+    I was thinking we could have it juist have images, wee can find a use for it later k, ill just leave it here for now we can move it accordingly
+-->   
+    <!--
+<div>
+      <img class="mySlides" src="https://media.npr.org/assets/img/2020/04/06/coronavirus-10000deaths-97f69d45ad55fca3267f7eedd7789b9058905ac0-s800-c85.jpg">
+      <img class="mySlides" src="https://s7d2.scene7.com/is/image/TWCNews/0424_tx_drive_thru-testjpg">
+      <img class="mySlides" src="https://carolinefifemd.com/wp-content/uploads/2020/04/how-was-your-war-scaled.jpg">
+      <img class="mySlides" src="https://www.sciencenews.org/wp-content/uploads/2020/07/070820_ti_covid-6m-vaccine_feat_REV-1440x700.jpg">
+    </div>
+    
+-->
+    
+    
+    <!-- Start of recent news slideshow -->
+    
+        <h2 style="color:black;" class="center">
+      新冠病毒新闻
+    </h2>
+
+    <!-- start of slideshow -->
+<div>
+  
+    
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="d-block w-100"
+            src="https://cdn.glitch.com/0d98bcc4-796f-471b-8bc6-c77ce9ac9fc6%2F10663396-3x2-large.jpg?v=1595637408153"
+            alt="First slide"
+               
+          />
+          
+          
+          <div class="carousel-caption d-none d-md-block">
+            <a href="https://www.abc.net.au/chinese/2020-07-24/chinese-consulate-san-francisco-us-military-researcher-fbi/12488968" target="blank">
+            <h2 style="background-color: white;">美国称旧金山中领馆窝藏解放军背景研究人员</h2>
+            <h5 style="background-color: white;">2020年07月23日</h5>
+            </a>
+            
+            
+            
+        </div>
+          
+        </div>
+        <div class="carousel-item">
+          
+          <img
+            class="d-block w-100"
+            src="https://cdn.glitch.com/0d98bcc4-796f-471b-8bc6-c77ce9ac9fc6%2F01ff0b13186448e79cf3363694ca6c9d.jpg?v=1595637566984"
+            alt="Second slide"
+          />
+          
+          <div class="carousel-caption d-none d-md-block">
+            <a href="http://www.chinanews.com/gj/2020/07-08/9232740.shtml" target="blank">
+            <h2 style="background-color: white;">媒体称加州新冠肺炎单日新增病例超1万 旧金山推迟重启计划</h2>
+            <h5 style="background-color: white;">2020年07月08日</h5>
+            </a>
+          </div>
+            
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="https://cdn.glitch.com/0d98bcc4-796f-471b-8bc6-c77ce9ac9fc6%2F41212840_101.jpg?v=1595638921898"
+            alt="Third slide"
+          />
+          
+          <div class="carousel-caption d-none d-md-block">
+            <a href="https://amp.dw.com/zh/%E6%96%B0%E5%86%A0%E8%82%BA%E7%82%8E%E8%BD%BB%E7%97%87%E8%80%85%E4%B9%9F%E5%8F%AF%E8%83%BD%E5%A4%A7%E8%84%91%E4%B8%A5%E9%87%8D%E5%8F%97%E6%8D%9F/a-54131791" target="blank">
+            <h2 style="background-color: white;">新冠肺炎轻症者也可能大脑严重受损</h2>
+            <h5 style="background-color: white;">2020年07月11日</h5>
+            </a>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+      
+      </div>
+      
+      <!-- End of recent news slideshow -->
+    
+    <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      
+  <!-- Start of Cards -->
+  
+  <h2 style="color:black;" class="center">
+      保护自己
+    </h2>
+    
+    <div class="card-deck my-5">
+  <div class="card">
+    <img class="card-img-top spread-img" src="https://media.kare11.com/assets/KARE/images/d7bb992c-b4a0-4104-9a75-116b7dd046d7/d7bb992c-b4a0-4104-9a75-116b7dd046d7_1920x1080.jpg" alt="Card image cap" width="100" height="250">
+    <div class="card-body">
+      <h5 class="card-title">社会距离</h5>
+      <p class="card-text">社会距离可以限制疾病传播。</p>
+      <p class="class-text font-italic">
+        “我觉得独自一人花时间挺健康的。你要知道如何单独而且不要被别人定义。”<br> – Oscar Wilde
+      </p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top spread-img" src="https://sfhss.org/sites/default/files/2020-04/Unknown-2_0.png" alt="Card image cap" width="100" height="250">
+    <div class="card-body">
+      <h5 class="card-title">戴口罩</h5>
+      <p class="card-text">口罩会挡住喷嚏／说话／咳嗽／等等的呼吸飞沫。</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top spread-img" src="https://ichef.bbci.co.uk/news/720/cpsprodpb/162C9/production/_111452809_washhands.png" alt="Card image cap" width="100" height="250">
+    <div class="card-body">
+      <h5 class="card-title">洗手</h5>
+      <p class="card-text">经常洗手以去除病原体。用肥皂洗至少20秒。</p>
+    </div>
+  </div>
+</div>
+  
+   <!-- End of Cards -->
+    
+
+
+    
+    
+    <!-- Chinese Footer -->
+<br>
+    <div class="footer">
+      <div class="row p-3 mb-2 bg-dark text-white">
+        <div class="col">
+          <h5>
+            有问题?
+          </h5>
+          <h6>
+            <i class="fa fa-phone" style="font-size:24px;color:white"></i>
+            (123)456-7890
+          </h6>
+          <h6>
+            <i class="fa fa-envelope-o" style="font-size:px"></i>
+            support@covidcentral.org
+          </h6>
+        </div>
+        <div class="col">
+          <h5>
+            有用超链
+          </h5>
+          <h6>
+            <a href="https://www.who.int/">World Health Organization</a>
+          </h6>
+          <h6>
+            <a href="https://www.cdc.gov/"
+              >Centers for Disease Control and Prevention</a
+            >
+          </h6>
+        </div>
+        <div class="col">
+          <h5>
+            和我们联系   
+          </h5>
+          <br />
+          <div class="icons">
+            <a class="icon" href="https://www.facebook.com/CDC" target = "blank"><span>Facebook</span></a>
+            <a class="icon" href="https://twitter.com/CDCgov" target = "blank"><span>Twitter</span></a>
+          
+            
+          </div>
+        </div>
+      </div>
+    </div>
+      
+
+    <script src="https://button.glitch.me/button.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
