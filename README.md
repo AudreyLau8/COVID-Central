@@ -1,5 +1,5 @@
 # Description
-Static informational website about COVID-19. Contains Chinese translations.
+Static informational website about COVID-19 built with HTML, CSS, and some Javascript. Contains Chinese translations.
 
 # Background
 Summer 2020 Web Design Course at Mission Bit, ~3 or 4 weeks of instruction. 
